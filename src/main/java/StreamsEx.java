@@ -18,6 +18,14 @@ public class StreamsEx {
                 .collect(Collectors.toList());
 
         collectionsResult.forEach(System.out :: println);
+
+//        Spring
+//        JUnit 5
+//        List<List<Integer>> 1000
+//        пробежатья по всем листам, выбрать наибольший в каждом (или перивый)
+//        прибавить к нему 10
+//        collect a collection
+        // прибавить наименьший
     }
 
 }

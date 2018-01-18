@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="37921" started-at="2018-01-18T16:46:43Z" finished-at="2018-01-18T16:47:21Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="37921" started-at="2018-01-18T16:46:43Z" finished-at="2018-01-18T16:47:21Z">
+      <class name="WithoutParamsTest">
+        <test-method status="PASS" signature="getGoogle()" name="getGoogle" duration-ms="7065" started-at="2018-01-18T19:46:55Z" finished-at="2018-01-18T19:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGoogle -->
+        <test-method status="PASS" signature="getYandex()" name="getYandex" duration-ms="13537" started-at="2018-01-18T19:46:55Z" finished-at="2018-01-18T19:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getYandex -->
+        <test-method status="PASS" signature="sleepForAWhile() throws java.lang.InterruptedException" name="sleepForAWhile" duration-ms="25352" started-at="2018-01-18T19:46:55Z" finished-at="2018-01-18T19:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sleepForAWhile -->
+      </class> <!-- WithoutParamsTest -->
+      <class name="ParamsTest">
+        <test-method status="PASS" signature="getSearchEngine()" name="getSearchEngine[1]" duration-ms="12515" started-at="2018-01-18T19:46:43Z" finished-at="2018-01-18T19:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchEngine[1] -->
+        <test-method status="PASS" signature="getSearchEngine()" name="getSearchEngine[0]" duration-ms="8754" started-at="2018-01-18T19:46:43Z" finished-at="2018-01-18T19:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchEngine[0] -->
+      </class> <!-- ParamsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
